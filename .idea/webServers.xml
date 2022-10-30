@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="94f73f17-b5a8-4cd5-9ef7-050ebaf025ce" name="seip-php-project-1" url="http://localhost:8080">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\seip-project\seip-php-project-1" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

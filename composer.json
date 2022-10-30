@@ -1,0 +1,22 @@
+{
+  "name": "seip-php-project-1/seip-php-project-1",
+  "description": "This is php oop project for showing student details",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "UseR",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
