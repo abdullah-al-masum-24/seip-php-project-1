@@ -2,6 +2,9 @@
 
 require_once './vendor/autoload.php';
 use App\classes\Student;
+use App\classes\SerialNumber;
+
+$serialResult = [];
 
 
 if (isset($_GET['page'])) {
@@ -26,7 +29,16 @@ if (isset($_GET['page'])) {
 
         include './pages/details.php';
 
-    }else {
+    }elseif ($_GET['page'] == 'Serial-number'){
+
+        include './pages/serial-number.php';
+    }
+    else {
         echo 'no page found';
     }
+}elseif (isset($_POST['serial_btn'])) {
+    $serialNumber = new SerialNumber($_POST);
+    $serialResult = $serialNumber->serialNumberResult();
+
+    include './pages/serial-number.php';
 }

@@ -18,7 +18,7 @@
         <ul class="navbar-nav ">
             <li><a href="action.php?page=Home" class="nav-link text-success">Home</a></li>
             <li><a href="action.php?page=About" class="nav-link text-success">About</a></li>
-            <li><a href="action.php?page=Contact" class="nav-link text-success">Contact</a></li>
+            <li><a href="action.php?page=Serial-number" class="nav-link text-success">Serial Number</a></li>
             <li><a href="action.php?page=All-student" class="nav-link text-success">All Student</a></li>
         </ul>
     </div>
